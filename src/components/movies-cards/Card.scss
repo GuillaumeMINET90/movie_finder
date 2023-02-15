@@ -1,0 +1,19 @@
+.card{
+    height: auto;
+   
+}
+
+.card-container{
+    margin: 1em auto;
+    box-shadow: 6px 6px 8px 2px rgba(156, 156, 156, 0.37);
+     &:hover{
+        transform: scale(1.2);
+        transition: transform 300ms ease-in-out;
+        z-index: 10;
+    }
+}
+
+
+.overview-content{
+    font-size: 15px;
+}
